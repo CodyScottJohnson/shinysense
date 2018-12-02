@@ -5,14 +5,7 @@
 
 const container = d3.select('#htmlwidget_container').html('');
 const shutter = container.append('center').append('button')
-  .text('Take Photo!')
-  .st({
-    width: '80%',
-    height: '40px',
-    fontSize: '24px',
-    fontFamily: 'Optima'
-  });
-
+  .text('Am I Sam?');
 const video = container.append('center')
   .append('video')
   .at({

@@ -8,17 +8,12 @@ HTMLWidgets.widget({
 
     const container = d3.select(el).html('');
     const shutter_height = 40;
-    const shutter_text = 'Take Photo!';
+    const shutter_text = 'Am I Sam?';
 
     const shutterHolder = container.append('center');
 
     const shutter = shutterHolder.append('button')
-      .text(shutter_text)
-      .style('width', '50%')
-      .style('max-width', '300px')
-      .style('height', `${shutter_height}px`)
-      .style('font-size', '24px')
-      .style('font-family', 'Optima');
+      .text(shutter_text);
 
     const sendingAnimation = container
       .append('div')

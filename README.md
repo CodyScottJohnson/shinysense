@@ -6,7 +6,7 @@
 
 # `shinysense`
 
-A series of [shiny modules](https://www.rstudio.com/resources/webinars/understanding-shiny-modules/) to help shiny sense the world around it.
+A series changes of [shiny modules](https://www.rstudio.com/resources/webinars/understanding-shiny-modules/) to help shiny sense the world around it.
 
 It's called `shinysense` because `shinyinputs` seemed kinda lame.
 
